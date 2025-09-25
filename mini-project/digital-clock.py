@@ -20,3 +20,10 @@ def date_time():
     label_mo.config(text=month)
     label_year.config(text=year)
     label_day.config(text=day)
+
+    label_hr.after(200, date_time)
+
+clock = Tk()
+clock.geometry("1000x500")
+clock.config(bg="yellow")
+clock.title("**** Digital Clock app ****")
