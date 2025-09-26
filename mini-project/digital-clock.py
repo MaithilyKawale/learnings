@@ -27,3 +27,8 @@ clock = Tk()
 clock.geometry("1000x500")
 clock.config(bg="yellow")
 clock.title("**** Digital Clock app ****")
+
+label_hr = Label(clock, text="00", font=("Times New Roman", 60, "bold"), bg="Blue", fg="white")
+label_hr.place(x=120, y=50, height=110, width=100)
+label_hr_txt = Label(clock, text="hour", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
+label_hr_txt.place(x=120, y=190, height=30, width=100)
