@@ -32,3 +32,8 @@ label_hr = Label(clock, text="00", font=("Times New Roman", 60, "bold"), bg="Blu
 label_hr.place(x=120, y=50, height=110, width=100)
 label_hr_txt = Label(clock, text="hour", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
 label_hr_txt.place(x=120, y=190, height=30, width=100)
+
+label_min = Label(clock, text="00", font=("Times New Roman", 60, "bold"), bg="Blue", fg="white")
+label_min.place(x=340, y=50, height=110, width=100)
+label_min_txt = Label(clock, text="Min", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
+label_min_txt.place(x=340, y=190, height=30, width=100)
