@@ -47,3 +47,8 @@ label_am = Label(clock, text="00", font=("Times New Roman", 40, "bold"), bg="Blu
 label_am.place(x=780, y=50, height=110, width=100)
 label_am_txt = Label(clock, text="AM/PM", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
 label_am_txt.place(x=780, y=190, height=30, width=100)
+
+label_date = Label(clock, text="00", font=("Times New Roman", 60, "bold"), bg="Blue", fg="white")
+label_date.place(x=120, y=270, height=110, width=100)
+label_date_txt = Label(clock, text="Date", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
+label_date_txt.place(x=120, y=410, height=30, width=100)
