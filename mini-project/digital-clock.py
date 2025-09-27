@@ -42,3 +42,8 @@ label_sec = Label(clock, text="00", font=("Times New Roman", 60, "bold"), bg="Bl
 label_sec.place(x=560, y=50, height=110, width=100)
 label_sec_txt = Label(clock, text="Sec", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
 label_sec_txt.place(x=560, y=190, height=30, width=100)
+
+label_am = Label(clock, text="00", font=("Times New Roman", 40, "bold"), bg="Blue", fg="white")
+label_am.place(x=780, y=50, height=110, width=100)
+label_am_txt = Label(clock, text="AM/PM", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
+label_am_txt.place(x=780, y=190, height=30, width=100)
