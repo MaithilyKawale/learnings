@@ -52,3 +52,8 @@ label_date = Label(clock, text="00", font=("Times New Roman", 60, "bold"), bg="B
 label_date.place(x=120, y=270, height=110, width=100)
 label_date_txt = Label(clock, text="Date", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
 label_date_txt.place(x=120, y=410, height=30, width=100)
+
+label_mo = Label(clock, text="00", font=("Times New Roman", 60, "bold"), bg="Blue", fg="white")
+label_mo.place(x=340, y=270, height=110, width=100)
+label_mo_txt = Label(clock, text="Month", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
+label_mo_txt.place(x=340, y=410, height=30, width=100)
