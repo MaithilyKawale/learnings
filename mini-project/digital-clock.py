@@ -57,3 +57,8 @@ label_mo = Label(clock, text="00", font=("Times New Roman", 60, "bold"), bg="Blu
 label_mo.place(x=340, y=270, height=110, width=100)
 label_mo_txt = Label(clock, text="Month", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
 label_mo_txt.place(x=340, y=410, height=30, width=100)
+
+label_year = Label(clock, text="00", font=("Times New Roman", 35, "bold"), bg="Blue", fg="white")
+label_year.place(x=560, y=270, height=110, width=100)
+label_year_txt = Label(clock, text="Year", font=("Times New Roman", 20, "bold"), bg="Blue", fg="white")
+label_year_txt.place(x=560, y=410, height=30, width=100)
