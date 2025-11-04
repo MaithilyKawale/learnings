@@ -1,0 +1,1 @@
+/*write a python program to check whether a number entered is three digit number or not*/
