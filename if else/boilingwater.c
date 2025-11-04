@@ -1,0 +1,1 @@
+/*accept the temperature in degree celsius of water amd check whether it is boiling or not*/
