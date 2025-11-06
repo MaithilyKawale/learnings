@@ -1,0 +1,1 @@
+/*write a program to check whether a num is divisible by 7 or not*/

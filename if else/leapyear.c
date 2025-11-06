@@ -1,0 +1,1 @@
+/*write a program to check whether an year is leap or not.*/

@@ -1,0 +1,1 @@
+/*write a python program to check whether a number entered is  divisible by 2 and 3 both*/

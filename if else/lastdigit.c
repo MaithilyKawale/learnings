@@ -1,0 +1,1 @@
+/*write a program to display the last digit of a num*/

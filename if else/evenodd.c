@@ -1,0 +1,1 @@
+/*write a program to check whether a number entered by user is even or odd*/

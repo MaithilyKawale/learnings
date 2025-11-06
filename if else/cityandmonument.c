@@ -1,0 +1,4 @@
+/*accept any city from the user and display monument of that city
+delhi red fort
+agra taj mahal
+jaipur jal mahal*/
