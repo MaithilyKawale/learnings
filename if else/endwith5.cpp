@@ -1,0 +1,1 @@
+/*Check if a number ends with digit 5*/
