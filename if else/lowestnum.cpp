@@ -1,0 +1,1 @@
+/*write a python program to find the lowest number out of two number expected from user*/
