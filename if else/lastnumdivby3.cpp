@@ -1,0 +1,1 @@
+/*write a program to check whether the last digit of a num is divisible by 3 or not*/
