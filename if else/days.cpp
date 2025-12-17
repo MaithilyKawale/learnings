@@ -4,5 +4,39 @@
 using namespace std;
 
 int main(){
+    int num;
+    cout<<"Enter num from 1-7:";
+    cin>>num;
     
+    if(num==1){
+        cout<<"It is Sunday";
+    }
+    
+    else if(num==2){
+        cout<<"It is Monday";
+    }
+    
+    else if(num==3){
+        cout<<"It is Tuesday";
+    }
+    
+    else if(num==4){
+        cout<<"It is Wednesday";
+    }
+    
+    else if(num==5){
+        cout<<"It is Thrusday";
+    }
+    
+    else if(num==6){
+        cout<<"It is Friday";
+    }
+    
+    else if(num==7){
+        cout<<"It is Saturday";
+    }
+    
+    else{
+        cout<<"invalid number";
+    }
 }
