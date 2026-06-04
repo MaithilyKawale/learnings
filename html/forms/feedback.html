@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <div class="Feedback" align="center">
+        <h2>Feedback Form</h2>
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your mail ID" required><br><br>
+
+            <label for="number">Phone Number</label><br>
+            <input type="tel" id="number" name="number" placeholder="Enter your phone number" required><br><br>
+
+            <label for="feedback">Your Feedback</label><br>
+            <textarea id="feedback" name="feedback" placeholder="Give your feedback..." rows="5" cols="40" required></textarea><br><br>
+
+            <label>Rate your experience</label><br><br>
+            <input type="radio" id="excellent" name="experience" value="Excellent">
+            <label for="excellent">Excellent</label><br>
+
+            <input type="radio" id="good" name="experience" value="Good">
+            <label for="good">Good</label><br>
+
+            <input type="radio" id="average" name="experience" value="Average">
+            <label for="average">Average</label><br>
+
+            <input type="radio" id="poor" name="experience" value="Poor">
+            <label for="poor">Poor</label><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
